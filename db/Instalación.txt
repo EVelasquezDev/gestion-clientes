@@ -1,0 +1,15 @@
+Instrucciones de instalación:
+
+1- Subir la base de datos llamada gestclidb al gestor de base de datos que desee
+2- Copiar todos los archivos a la carpeta del servidor
+3- Configurar el usuario y la contraseña del acceso a la DB en el archivo que se encuentra en la siguiente ruta:
+config/class.configuracion.php
+4- Para acceder al sistema:
+   Usuario: Admin
+   Contraseña: admin
+
+
+Nota: Se pueden realizar muchisimas mejoras y desarrollar un gran sistema y con mejores tecnologías pero con más tiempo!
+      No dediqué el tiempo necesario para su desarrollo.
+
+Espero que sea de su agrado, muchísimas gracias.
