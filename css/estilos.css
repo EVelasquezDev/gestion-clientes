@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.form-login {
+	background: rgba(0,0,0,0.5);
+	border-radius: 5px;
+}
+
+div.image-login img {
+	max-height: 70px;
+}
+
+.footer {
+  height: 40px;
+}
