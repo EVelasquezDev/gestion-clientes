@@ -3,7 +3,7 @@
 
 	if (isset($_POST['registrar']) || isset($_POST['actualizar']) || isset($_POST['eliminar'])) {
 		if ($_POST['ejecutar'] == 'registrarCliente') {
-			$nombre = alltrim($_POST['nombres']) . " " . $_POST['apellidos'];
+			$nombre = $_POST['nombres'] . " " . $_POST['apellidos'];
 			$cedula = $_POST['nacionalidad'] . $_POST['cedula'];
 			$fecha_nac = $_POST['fecha_nac'];
 			$direccion = $_POST['direccion'];
@@ -54,7 +54,7 @@
 			$nombre = $_POST['nombres'] . " " . $_POST['apellidos'];
 			$usuario = $_POST['usuario'];
 			$password = sha1($_POST['password']);
-			$confirm_password = password_hash($_POST['confirm_password'], PASSWORD_DEFAULT);
+			$confirm_password = sha1($_POST['confirm_password']);
 			$correo = $_POST['correo'];
 			$activo = $_POST['activo'];
 
