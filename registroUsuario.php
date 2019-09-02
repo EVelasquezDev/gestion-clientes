@@ -1,11 +1,3 @@
-<?php 
-	session_start();
-    $varusuario = $_SESSION['usuario'];
-    if ($varusuario == null || $varusuario == '') {
-        header('Location: ./index.php');
-    }
-?>
-
 <div class="modal fade" id="modalRegistrarUsuario" tabindex="-1" role="dialog" aria-labelledby="modalRegistroUsuarioCenter" aria-hidden="true">
   	<div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     	<div class="modal-content">
@@ -46,7 +38,7 @@
 							    	<input type="email" name="correo" class="form-control" id="correo" placeholder="" required>
 							  	</div>
 							  	<div class="form-check">
-								  	<input class="form-check-input" type="checkbox" name="activo" value="activo" id="activo">
+								  	<input class="form-check-input" type="checkbox" name="activo" value="1" id="activo">
 								  	<label class="form-check-label" for="activo">
 								    	Activo
 								  	</label>

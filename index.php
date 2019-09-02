@@ -29,7 +29,6 @@
 
 						<div class="botones-login text-center">
 							<button type="submit" name="login" class="btn btn-success"> Ingresar </button>
-							<button type="button" name="registro" class="btn btn-primary" data-toggle="modal" data-target="#modalRegistrarUsuario"> Registrar </button>
 						</div>
 					</form>
 				</div>
@@ -37,4 +36,5 @@
 		</div>
 	</div>
 
+<?php include('registroUsuario.php') ?>
 <?php include('footer.php') ?>

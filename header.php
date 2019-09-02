@@ -33,6 +33,19 @@
 			    			</a>
 			      		</li>
 			      		<li class="nav-item dropdown">
+			      			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          			Usuarios
+			        		</a>
+			        		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			        			<!-- <a class="dropdown-item" href="./clientes.php">Lista de Usuarios</a> -->
+				          		<button class="dropdown-item" name="registro" data-toggle="modal" data-target="#modalRegistrarUsuario">Registrar Usuario</button>
+				          		<!-- <button class="dropdown-item" data-toggle="modal" data-target="#modalModificar">Modificar Cliente</button>
+				          		<button class="dropdown-item" data-toggle="modal" data-target="#modalEliminar">Eliminar Cliente</button>
+				          		<div class="dropdown-divider"></div> -->
+				          		<!-- <a class="dropdown-item" id="modalBuscar">Buscar Clientes</a> -->
+			        		</div>
+			      		</li>
+			      		<li class="nav-item dropdown">
 			        		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			          			Clientes
 			        		</a>
@@ -59,3 +72,4 @@
 		</header>
 	</div>
 	<?php include('./registrar.php') ?>
+	<?php include('./registroUsuario.php') ?>

@@ -144,6 +144,13 @@
 		function registrarUsuario() {
 			$conexion = new ConexionDB();
 
+			echo $this->nombre;
+			echo $this->usuario;
+			echo $this->password;
+			echo $this->correo;
+			echo $this->activo;
+
+
 			$query = "INSERT INTO usuarios(nombre, usuario, password, correo, activo) VALUES ('$this->nombre', '$this->usuario', '$this->password', '$this->correo', '$this->activo')";
 
 			if ($conexion->query($query) === true) {

@@ -56,7 +56,12 @@
 			$password = sha1($_POST['password']);
 			$confirm_password = sha1($_POST['confirm_password']);
 			$correo = $_POST['correo'];
-			$activo = $_POST['activo'];
+			if (isset($_POST['activo'])) {
+				$activo = $_POST['activo'];
+			} else {
+				$activo = 0;
+			}
+			
 
 			$registroValidaciones = new RegistroValidaciones($nombre, $usuario, $password, $correo, $activo);
 			$registroValidaciones->registrarUsuario();
