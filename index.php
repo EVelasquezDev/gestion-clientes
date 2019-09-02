@@ -8,6 +8,10 @@
 <?php $title = ''; ?>
 <?php include('header.php') ?>
 	<div class="container">
+		<div class="row espaciado">
+			<div class="col">
+			</div>
+		</div>
 		<div class="row justify-content-center">
 			<div class="col-lg-6 col-12">
 				<div class="p-3">
@@ -32,6 +36,10 @@
 						</div>
 					</form>
 				</div>
+			</div>
+		</div>
+		<div class="row espaciado">
+			<div class="col">
 			</div>
 		</div>
 	</div>
