@@ -2,7 +2,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col">
-					<p class="bg-success">Reto de Programación - Desarrollo de aplicativo web</p>
+					<p>Reto de Programación - Desarrollo de aplicativo web</p>
 				</div>
 			</div>
 		</div>			
